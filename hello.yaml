@@ -1,0 +1,17 @@
+"apple" : "i am a rred fruit"
+1:"this is kunal's rolll number"
+
+---
+#lists
+-apple
+-mango
+-banana
+
+# yaml is case sensitive 
+---
+cities:
+ - new delhi
+ - mumbai 
+ - kolkata
+...
+cities:[new delhi , mumbai ]

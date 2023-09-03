@@ -1,0 +1,56 @@
+#String variables 
+name: !!str "vineet agarwal"
+name: vineet agarwal 
+job: 'devops'
+
+bio: |
+ hey my name is vineet agarwal .
+ i am a very nice guy
+
+
+# write a single line in multiple lines
+message: > 
+ this 
+ will 
+ all be
+ in one
+ single line
+
+# number
+number: 55
+marks: 77.9
+
+# boolean values
+value: !!bool no #n . N , False , False , FALSE
+value1: yes #yes , y , Y , YES
+
+
+# specify the type
+
+zero: !!int 0
+positive: !!int 45
+negatie: !!int -45
+binary: !!int 0b110010
+octal: !!int 06754
+hexa: !!int 0x45
+comma: !!int +540_000 #540,000
+exponential: 6.023E56
+
+
+
+#floating points
+
+simpleNumber: !!float 56.89
+infinite: !!float .inf
+not a num: .nan
+
+#null
+
+surname: !!NULL Null # or null , Null , ~
+~: #null key
+
+# dates and times
+
+date: 2023-12-14
+
+

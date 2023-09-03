@@ -1,0 +1,52 @@
+student: !!seq
+ - marks
+ - name
+ - roll_no
+
+student: {marks , name , roll_no}
+
+#some of the kye of the seq will be empty
+# sparse seq
+
+spare:
+ - he
+ -
+ -Null
+ - sup
+
+#subitems nested sqeuest
+
+subitems: 
+ -
+  - name:
+   - hello
+   - vineet
+ - 
+   - surname:
+     - agarwal
+
+# map
+!!map
+
+# nested mapping
+name: vineet agarwal
+role:
+ age: 18
+ job: "software engineer"
+
+# pairs : key may have duplicate values
+
+pair example: !!pair 
+ - job: student
+ - job: teacher
+
+
+# same as
+pair: !!pairs [job: student , job: student]
+
+# !!set will allow you to have unique values
+
+names: !!set 
+ ? kunal
+ ? approov
+ ? rahul
